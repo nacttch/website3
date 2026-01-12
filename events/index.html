@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Milongas | Tejas Tango</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --tango-gold: #d4af37; }
+        body { font-family: 'Montserrat', sans-serif; background-color: #050505; color: #ffffff; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        .text-gold { color: var(--tango-gold); }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
+            <a href="/" class="text-2xl font-bold text-gold">TEJAS <span class="text-white">TANGO</span></a>
+            <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+                <a href="/" class="hover:text-gold transition">Home</a>
+                <a href="/classes/" class="hover:text-gold transition">Classes</a>
+                <a href="/events/" class="text-gold">Events</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-20 max-w-4xl mx-auto px-6">
+        <h1 class="text-5xl font-bold mb-12 text-center">Upcoming <span class="text-gold">Events</span></h1>
+        
+        <div class="space-y-6">
+            <div class="bg-zinc-900 p-6 rounded-xl border-l-4 border-gold flex justify-between items-center">
+                <div>
+                    <span class="text-gold font-bold">JAN 25</span>
+                    <h2 class="text-xl font-bold">Midnight Milonga</h2>
+                    <p class="text-gray-400 text-sm">Special performance by guest DJs.</p>
+                </div>
+                <button class="bg-white text-black px-6 py-2 rounded-full font-bold text-sm">Book Ticket</button>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-xl border-l-4 border-gold flex justify-between items-center">
+                <div>
+                    <span class="text-gold font-bold">FEB 02</span>
+                    <h2 class="text-xl font-bold">Tango Workshop</h2>
+                    <p class="text-gray-400 text-sm">Refining the embrace with Jose & Maria.</p>
+                </div>
+                <button class="bg-white text-black px-6 py-2 rounded-full font-bold text-sm">Book Ticket</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 bg-black border-t border-white/5 text-center mt-auto text-gray-500">
+        <p>© 2026 Tejas Tango. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
