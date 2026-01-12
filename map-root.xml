@@ -5,19 +5,4 @@
     <loc>https://old.tejastango.com/map-main.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
-
-  <sitemap>
-    <loc>https://old.tejastango.com/classes</loc>
-    <lastmod>2026-01-12</lastmod>
-  </sitemap>
-
-  <sitemap>
-    <loc>https://old.tejastango.com/events</loc>
-    <lastmod>2026-01-12</lastmod>
-
-    <sitemap>
-    <loc>https://old.tejastango.com</loc>
-    <lastmod>2026-01-12</lastmod>
-  </sitemap>
-  </sitemap>
 </sitemapindex>
