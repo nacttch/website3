@@ -36,8 +36,8 @@ class ContinuousGenerator:
             self.template_content = "<html><head><title>{{TITLE}}</title></head><body>{{DESCRIPTION}}<br>Date: {{DATE}}<br>{{INTERNAL_LINKS}}</body></html>"
 
     def load_keywords(self):
-        ar_files = ["full_keywords_ar.txt", "triplets_ar.txt", "keywords_ar.txt"]
-        en_files = ["full_keywords_en.txt", "triplets_en.txt", "keywords_en.txt"]
+        ar_files = ["keywords_ar.txt"]
+        en_files = ["keywords_en.txt"]
         
         for file in ar_files:
             if os.path.exists(file):
